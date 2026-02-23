@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Fuentes */ 
+@font-face {
+    font-family: "Museo-Sans-Rounded";
+    src: url(font/Museo-Sans-Rounded/MuseoSansRounded500.otf) format("opentype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Open-Sans";
+    src: url(font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+.letras{
+    font-family: "Museo-Sans-Rounded", Helvetica;
+    color: #ffff;
+
+}
+.section p{
+    font-family:"Open-Sans";
+    color: #ffff;
+}
+/* Header */
+
+.cabecera{
+    background-color: #3686ed;
+    width: 100%;
+    height: 114px;
+    
+}
+.cabecera-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 0 60px;
+}
+/* Section */
+
+.section{
+    background-color: #095dbd;
+    width: 100%;
+    height: 1000px;
+    padding: 90px 0;
+}
+.section-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.section a{
+    text-decoration: none;
+    background-color: #d24b03;
+    width: 240px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 23px;
+}
+.section h1{
+    width: 80%;
+    height: 96px;
+    font-size: 44px;
+}
+.section h2{
+    height: 30px;
+    font-size: 28px;
+}
+.section p{
+    width: 340px;
+    height: 78px;
+    font-size: 20px;
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    font-family: "Open-Sans";
+    color: #898A92;
+    font-size: 15px;
+}
+.footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+.footer a{
+    text-decoration: none;
+    font-family: "Open-Sans";
+    color: #898A92;
+    font-size: 15px;
+}
