@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    flex: 1;
 }
 /* Fuentes */ 
 @font-face {
@@ -26,7 +31,7 @@
 .cabecera{
     background-color: #3686ed;
     width: 100%;
-    height: 114px;
+    
     
 }
 .cabecera-flex{
@@ -40,13 +45,14 @@
 .section{
     background-color: #095dbd;
     width: 100%;
-    height: 1000px;
+    min-height: 100vh;
     padding: 90px 0;
 }
 .section-flex{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 30px;
 }
 .section a{
@@ -77,9 +83,10 @@
      align-items: center;
     justify-content: center;
 }
+
+/* Footer */
 .footer{
     width: 100%;
-    height: 150px;
     font-family: "Open-Sans";
     color: #898A92;
     font-size: 15px;
