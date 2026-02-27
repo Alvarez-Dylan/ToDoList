@@ -7,26 +7,38 @@
     <link rel="icon" href="imagenes/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="toDo">
      <header class="cabecera cabecera-flex">
         <a href="index.html"><img src="imagenes/logo.png" alt="Logo de No te olvides de la Leche" width="145px" height="83px"></a>
         <a href="https://github.com/Alvarez-Dylan/ToDoList.git"><img src="imagenes/github.png" width="50px" height="50px"></a>
     </header>
-    <section class="toDo-Section">
-        <div class="toDo-Section__titulo">
+    <section class="toDo-Section toDo-Section-flex">
+        <div class="toDo-Section__titulo toDo-Section__titulo-flex">
             <h1>To - Do</h1>
             <img src="imagenes/checkGif.gif" width="80px" height="80px">
         </div>
-        <div class="toDo-Section__agregar">
+        <div class="toDo-Section__agregar toDo-Section__agregar-flex">
             <input type="text" placeholder="Agregar un To-Do item...">
             <button class="todo-button">Agregar</button>
         </div>
-        <div class="toDo-Section__lista">
-            
+        <div class="toDo-Section__lista ">
+        <div class="toDo-Section__lista__titulos toDo-Section__lista__titulos-flex ">
+            <button>Marcar Todas las tareas</button>
+            <p>Actúa ahora, simplifica la vida.</p>
         </div>
-    
+        <div class="toDo-Section__lista__tareas toDo-Section__lista__tareas-flex">
+          <label class="toDo-Section__lista__tareas-lista">
+            <input type="radio" name="tarea">
+            <p>Comprar Leche</p>
+          </label>
+          <div class="toDo-Section__lista__tareas-btn">
+            <button class="toDo-Section__lista__tareas__botones" id="editar-tarea"><img src="imagenes/lapiz-3d.png" width="40px" height="40px"></button>
+            <button class="toDo-Section__lista__tareas__botones" id="eliminar-tarea"><img src="imagenes/borrar.png" width="40px" height="40px"></button>
+        </div>
+        </div class="toDo-Section__lista__tareas__fotter">
+        <p>1 Tarea restante</p>
+        </div>
 
-        </div>
     </section>
     
 </body>
