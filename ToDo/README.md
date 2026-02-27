@@ -8,7 +8,7 @@ Tecnologías
 - MySQL como base de datos
 Estructura del proyecto
 
-ToDoList/
+ToDo/
 ├── frontend/
 │   ├── index.html
 │   ├── toDo.html
