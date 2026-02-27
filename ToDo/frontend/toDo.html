@@ -6,6 +6,7 @@
     <title>To Do List</title>
     <link rel="icon" href="imagenes/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
 </head>
 <body class="toDo">
      <header class="cabecera cabecera-flex">
@@ -26,17 +27,11 @@
             <button>Marcar Todas las tareas</button>
             <p>Actúa ahora, simplifica la vida.</p>
         </div>
-        <div class="toDo-Section__lista__tareas toDo-Section__lista__tareas-flex">
-          <label class="toDo-Section__lista__tareas-lista">
-            <input type="radio" name="tarea">
-            <p>Comprar Leche</p>
-          </label>
-          <div class="toDo-Section__lista__tareas-btn">
-            <button class="toDo-Section__lista__tareas__botones" id="editar-tarea"><img src="imagenes/lapiz-3d.png" width="40px" height="40px"></button>
-            <button class="toDo-Section__lista__tareas__botones" id="eliminar-tarea"><img src="imagenes/borrar.png" width="40px" height="40px"></button>
+        <div class="toDo-Section__lista__tareas toDo-Section__lista__tareas-flex" id="lista-tareas">
+          
         </div>
-        </div class="toDo-Section__lista__tareas__fotter">
-        <p>1 Tarea restante</p>
+        <div class="toDo-Section__lista__fotter">
+        <p id="contador">0 tareas restantes</p>
         </div>
 
     </section>
